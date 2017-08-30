@@ -23,6 +23,13 @@
 <body>
 
 <!-- Navbar will come here -->
+<nav class="navbar alert alert-info"  role="navigation">
+  	<div class="container-fluid">
+      <div class="s">
+        sadad
+      </div>
+    </div>
+</nav>
 <nav class="navbar navbar-default" role="navigation">
 	<div class="container-fluid">
     	<div class="navbar-header">
@@ -119,7 +126,7 @@
         </div>
 
         <div class="item">
-          <img src="assets/img/bg3.jpeg" alt="Test2" style="width:100%;height:50%;">
+          <img src="assets/1   /bg3.jpeg" alt="Test2" style="width:100%;height:50%;">
         </div>
 
 
