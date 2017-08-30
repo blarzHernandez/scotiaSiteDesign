@@ -1,0 +1,301 @@
+.social-nav{
+    width: 100%;
+    background-color: #2C3E50;
+    color: white;
+
+}
+.form-control-custom {
+   border: 0;
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+  background-size: 0 2px, 100% 1px;
+  background-repeat: no-repeat;
+  background-position: center bottom, center calc(100% - 1px);
+  background-color: transparent;
+  transition: background 0s ease-out;
+  float: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-weight: 400;
+}
+
+.social-nav .divider-vertical {
+height: 40px;
+margin: 0 9px;
+border-left: 1px solid #f2f2f2;
+border-right: 1px solid #ffffff;
+}
+.social-nav-custom {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+}
+.social-nav, .social-nav.default {
+  /*
+  Tonos rojos
+  E9573F
+  DB1F2A
+  F6465B
+
+  */
+  background-color: #2C3E50;
+  color: #ffffff;
+  
+}
+
+.social-nav .social-nav-form .form-group input.form-control::-moz-placeholder,
+.social-nav .social-nav-form input.form-control::-moz-placeholder, .social-nav.social-nav-default .social-nav-form .form-group input.form-control::-moz-placeholder,
+.social-nav.social-nav-default .social-nav-form input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.social-nav .social-nav-form .form-group input.form-control:-ms-input-placeholder,
+.social-nav .social-nav-form input.form-control:-ms-input-placeholder, .social-nav.social-nav-default .social-nav-form .form-group input.form-control:-ms-input-placeholder,
+.social-nav.social-nav-default .social-nav-form input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.social-nav .social-nav-form .form-group input.form-control::-webkit-input-placeholder,
+.social-nav .social-nav-form input.form-control::-webkit-input-placeholder, .social-nav.social-nav-default .social-nav-form .form-group input.form-control::-webkit-input-placeholder,
+.social-nav.social-nav-default .social-nav-form input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.social-nav .dropdown-menu, .social-nav.social-nav-default .dropdown-menu {
+  border-radius: 3px !important;
+}
+.social-nav .dropdown-menu li > a:hover, .social-nav .dropdown-menu li > a:focus, .social-nav.social-nav-default .dropdown-menu li > a:hover, .social-nav.social-nav-default .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  /*
+  F6465B
+  DB4E4E
+  */
+  background-color: #F6465B;
+}
+.social-nav .dropdown-menu .active > a, .social-nav.social-nav-default .dropdown-menu .active > a {
+  background-color: #9c27b0;
+  color: #ffffff;
+}
+.social-nav .dropdown-menu .active > a:hover, .social-nav .dropdown-menu .active > a:focus, .social-nav.social-nav-default .dropdown-menu .active > a:hover, .social-nav.social-nav-default .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.social-nav.social-nav-inverse {
+  background-color: #3f51b5;
+  color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.social-nav.social-nav-inverse .social-nav-form .form-group input.form-control::-moz-placeholder,
+.social-nav.social-nav-inverse .social-nav-form input.form-control::-moz-placeholder {
+  color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.social-nav.social-nav-inverse .social-nav-form .form-group input.form-control:-ms-input-placeholder,
+.social-nav.social-nav-inverse .social-nav-form input.form-control:-ms-input-placeholder {
+  color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.social-nav.social-nav-inverse .social-nav-form .form-group input.form-control::-webkit-input-placeholder,
+.social-nav.social-nav-inverse .social-nav-form input.form-control::-webkit-input-placeholder {
+  color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.social-nav.social-nav-inverse .dropdown-menu {
+  border-radius: 3px !important;
+}
+.social-nav.social-nav-inverse .dropdown-menu li > a:hover, .social-nav.social-nav-inverse .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #3f51b5;
+}
+.social-nav.social-nav-inverse .dropdown-menu .active > a {
+  background-color: #3f51b5;
+  color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.social-nav.social-nav-inverse .dropdown-menu .active > a:hover, .social-nav.social-nav-inverse .dropdown-menu .active > a:focus {
+  color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.social-nav.social-nav-primary {
+  background-color: white
+  ;
+  color: #ffffff;
+}
+.social-nav.social-nav-primary .social-nav-form .form-group input.form-control::-moz-placeholder,
+.social-nav.social-nav-primary .social-nav-form input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-primary .social-nav-form .form-group input.form-control:-ms-input-placeholder,
+.social-nav.social-nav-primary .social-nav-form input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-primary .social-nav-form .form-group input.form-control::-webkit-input-placeholder,
+.social-nav.social-nav-primary .social-nav-form input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-primary .dropdown-menu {
+  border-radius: 3px !important;
+}
+.social-nav.social-nav-primary .dropdown-menu li > a:hover, .social-nav.social-nav-primary .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #9c27b0;
+}
+.social-nav.social-nav-primary .dropdown-menu .active > a {
+  background-color: #9c27b0;
+  color: #ffffff;
+}
+.social-nav.social-nav-primary .dropdown-menu .active > a:hover, .social-nav.social-nav-primary .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.social-nav.social-nav-success {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+.social-nav.social-nav-success .social-nav-form .form-group input.form-control::-moz-placeholder,
+.social-nav.social-nav-success .social-nav-form input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-success .social-nav-form .form-group input.form-control:-ms-input-placeholder,
+.social-nav.social-nav-success .social-nav-form input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-success .social-nav-form .form-group input.form-control::-webkit-input-placeholder,
+.social-nav.social-nav-success .social-nav-form input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-success .dropdown-menu {
+  border-radius: 3px !important;
+}
+.social-nav.social-nav-success .dropdown-menu li > a:hover, .social-nav.social-nav-success .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #4caf50;
+}
+.social-nav.social-nav-success .dropdown-menu .active > a {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+.social-nav.social-nav-success .dropdown-menu .active > a:hover, .social-nav.social-nav-success .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.social-nav.social-nav-info {
+  background-color: #03a9f4;
+  color: #ffffff;
+}
+.social-nav.social-nav-info .social-nav-form .form-group input.form-control::-moz-placeholder,
+.social-nav.social-nav-info .social-nav-form input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-info .social-nav-form .form-group input.form-control:-ms-input-placeholder,
+.social-nav.social-nav-info .social-nav-form input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-info .social-nav-form .form-group input.form-control::-webkit-input-placeholder,
+.social-nav.social-nav-info .social-nav-form input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-info .dropdown-menu {
+  border-radius: 3px !important;
+}
+.social-nav.social-nav-info .dropdown-menu li > a:hover, .social-nav.social-nav-info .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #03a9f4;
+}
+.social-nav.social-nav-info .dropdown-menu .active > a {
+  background-color: #03a9f4;
+  color: #ffffff;
+}
+.social-nav.social-nav-info .dropdown-menu .active > a:hover, .social-nav.social-nav-info .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.social-nav.social-nav-warning {
+  background-color: #fbc02d;
+  color: #ffffff;
+}
+.social-nav.social-nav-warning .social-nav-form .form-group input.form-control::-moz-placeholder,
+.social-nav.social-nav-warning .social-nav-form input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-warning .social-nav-form .form-group input.form-control:-ms-input-placeholder,
+.social-nav.social-nav-warning .social-nav-form input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-warning .social-nav-form .form-group input.form-control::-webkit-input-placeholder,
+.social-nav.social-nav-warning .social-nav-form input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-warning .dropdown-menu {
+  border-radius: 3px !important;
+}
+.social-nav.social-nav-warning .dropdown-menu li > a:hover, .social-nav.social-nav-warning .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #fbc02d;
+}
+.social-nav.social-nav-warning .dropdown-menu .active > a {
+  background-color: #fbc02d;
+  color: #ffffff;
+}
+.social-nav.social-nav-warning .dropdown-menu .active > a:hover, .social-nav.social-nav-warning .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.social-nav.social-nav-danger {
+  background-color: #f44336;
+  color: #ffffff;
+}
+.social-nav.social-nav-danger .social-nav-form .form-group input.form-control::-moz-placeholder,
+.social-nav.social-nav-danger .social-nav-form input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-danger .social-nav-form .form-group input.form-control:-ms-input-placeholder,
+.social-nav.social-nav-danger .social-nav-form input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-danger .social-nav-form .form-group input.form-control::-webkit-input-placeholder,
+.social-nav.social-nav-danger .social-nav-form input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.social-nav.social-nav-danger .dropdown-menu {
+  border-radius: 3px !important;
+}
+.social-nav.social-nav-danger .dropdown-menu li > a:hover, .social-nav.social-nav-danger .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #f44336;
+}
+.social-nav.social-nav-danger .dropdown-menu .active > a {
+  background-color: #f44336;
+  color: #ffffff;
+}
+.social-nav.social-nav-danger .dropdown-menu .active > a:hover, .social-nav.social-nav-danger .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.social-nav-inverse {
+  background-color: #3f51b5;
+}
+.social-nav.social-nav-transparent {
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+  padding-top: 25px;
+}
+.social-nav.social-nav-transparent .logo-container .brand {
+  color: #FFFFFF;
+}
+.social-nav-fixed-top {
+  border-radius: 0;
+}
+@media (max-width: 1199px) {
+  .social-nav {
+    /*
+        .social-nav-form {
+          margin-top: 10px;
+        }
+    */
+  }
+  .social-nav .social-nav-brand {
+    height: 50px;
+    padding: 10px 15px;
+  }
+  .social-nav .social-nav-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+.social-nav .alert {
+  border-radius: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  z-index: 3;
+  transition: all 0.3s;
+}
